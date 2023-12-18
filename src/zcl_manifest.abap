@@ -1,4 +1,4 @@
-CLASS zcl_apack_manifest DEFINITION
+CLASS zcl_manifest DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -11,7 +11,7 @@ CLASS zcl_apack_manifest DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_apack_manifest IMPLEMENTATION.
+CLASS zcl_manifest IMPLEMENTATION.
   METHOD constructor.
     if_apack_manifest~descriptor-group_id = 'github.com/xsdbool'.
     if_apack_manifest~descriptor-artifact_id = 'abap-libs'.
